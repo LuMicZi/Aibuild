@@ -1,0 +1,5 @@
+com\aibuild\manager\SchematicManager$BuildRecord.class
+com\aibuild\gui\SchematicGui.class
+com\aibuild\Aibuild.class
+com\aibuild\command\AibuildCommand.class
+com\aibuild\manager\SchematicManager.class

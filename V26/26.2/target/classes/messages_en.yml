@@ -1,0 +1,111 @@
+# Aibuild - English language file
+# Author: LuMickZi
+
+# ============ Plugin Prefix ============
+prefix: "[Aibuild] "
+
+# ============ General ============
+no-permission: "You don't have permission to do that!"
+player-only: "This command can only be used by players!"
+reload-success: "Plugin reloaded successfully!"
+
+# ============ Schematic / Build ============
+schematic-list: "Available templates:"
+schematic-list-footer: "Use /aibuild build <name> or /aibuild gui"
+schematic-list-empty: "No templates found! Put .schem files in plugins/Aibuild/schematics/"
+schematic-not-found: "Schematic not found: %name%"
+building-started: "Building: %name%"
+building-completed: "Build completed successfully!"
+building-failed: "Build failed: %error%"
+building-failed-load: "Failed to load schematic file"
+building-size: "Size: %w%x%h%x%l% (W x H x D)"
+building-bounds: "Bounds: (%mx%,%my%,%mz%) -> (%Mx%,%My%,%Mz%)"
+
+# ============ Undo ============
+undo-no-record: "Nothing to undo — no build recorded for you yet."
+undo-success: "Undo complete — restored the area to its original state."
+undo-failed: "Undo failed: %error%"
+undo-no-perm: "You don't have permission to undo builds!"
+
+# ============ GUI ============
+gui-title: "Aibuild - Templates (page %page%/%total%)"
+gui-item-lore-click: "Click to build this schematic"
+gui-item-lore-size: "Dimensions: %w%x%h%x%l%"
+gui-item-lore-confirm: "Click to preview placement"
+gui-item-lore-click-preview: "Click to preview (green wireframe)"
+gui-item-lore-click-confirm: "Click again to confirm & build"
+gui-item-lore-previewing: "Currently previewing"
+gui-prev-page: "Previous Page (page %page%)"
+gui-next-page: "Next Page (page %page%)"
+gui-undo-title: "Undo Last Build"
+gui-undo-lore1: "Clears the region of your last schematic"
+gui-undo-lore2: "Requires permission: aibuild.undo"
+gui-confirm-title: "Confirm Build"
+gui-confirm-lore1: "Build the previewed schematic"
+gui-confirm-lore2: "at the highlighted location"
+gui-info-title: "Aibuild Auto-Build"
+gui-info-lore-total: "Total templates: %count%"
+gui-info-lore-page: "Viewing page %page% of %total%"
+gui-info-lore-author: "Author: LuMickZi"
+gui-info-lore-hint: "Click a template to preview (green)"
+gui-info-lore-hint2: "Click again to confirm build"
+gui-build-no-perm: "You don't have permission to build!"
+
+# ============ Selection Tool ============
+tool-name: "Aibuild Selection Tool"
+tool-lore-1: "Left-click a block: set pos1"
+tool-lore-2: "Right-click a block: set pos2"
+tool-lore-hint: "Then /aibuild build <name> or click the GUI"
+tool-received: "Selection tool added to your inventory. Left-click = pos1, Right-click = pos2."
+tool-no-perm: "You don't have permission to use the selection tool!"
+sel-pos1-set: "Pos1 set: (%x%, %y%, %z%) in %world%"
+sel-pos2-set: "Pos2 set: (%x%, %y%, %z%) in %world%"
+sel-region-size: "Region size: %w%x%h%x%l%"
+sel-world-mismatch: "Pos2 must be in the same world as pos1. Re-set pos1 here first."
+building-mode-selection: "Mode: aligned to a selection corner"
+building-mode-feet: "Mode: at your feet (no active selection)"
+
+# ============ Preview ============
+preview-showing: "Previewing: %name%"
+preview-confirm-hint: "Click the same template again (or the confirm button) to build"
+preview-no-preview: "No preview to confirm — click a template first."
+
+# ============ Language ============
+lang-set-success: "Language changed to English (en)."
+lang-usage: "Usage: /aibuild language <en|zh_cn>"
+lang-unknown: "Unknown language. Use: en or zh_cn"
+lang-current: "Current language: English (en)"
+lang-help: "Switch display language. Valid values: en, zh_cn"
+
+# ============ Help / Usage ============
+help-title: "=== Aibuild Commands ==="
+help-author: "Author: LuMickZi"
+help-list: " /aibuild list        - List all templates"
+help-build: " /aibuild build <n>   - Build at your location"
+help-gui: " /aibuild gui         - Open GUI (recommended)"
+help-tool: " /aibuild tool        - Get the selection tool"
+help-undo: " /aibuild undo        - Undo your last build"
+help-reload: " /aibuild reload      - Reload plugin config"
+help-language: " /aibuild language    - Switch language (en/zh_cn)"
+help-help: " /aibuild help        - Show this help"
+help-alias: " Alias: /ab <command>"
+
+# ============ Command Error ============
+cmd-usage-build: "Usage: /aibuild build <name>"
+cmd-unknown: "Unknown subcommand. Type /aibuild help to see all commands."
+
+# ============ Startup ============
+startup-header: "Aibuild v%version% is starting..."
+startup-server: "Server: %server% %version%"
+startup-author: "Author: LuMickZi"
+startup-folder-created: "Created data folder: %path%"
+startup-folder-schem: "Schematics folder: %path%"
+startup-folder-schem-created: "Created schematics folder: %path%"
+startup-config-loaded: "Using existing config: config.yml"
+startup-config-saved: "Default config file saved: config.yml"
+startup-config-error: "WARNING: saveDefaultConfig() did not create config.yml!"
+startup-command-registered: "Command '/aibuild' registered successfully"
+startup-loaded: "Loaded %count% schematic template(s)"
+startup-enabled: "Aibuild is now ENABLED. Use /aibuild help or /ab help"
+startup-hint: "Place .schem files in: %path%"
+startup-lang: "Language: %lang%"

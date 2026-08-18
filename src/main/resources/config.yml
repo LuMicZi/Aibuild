@@ -1,0 +1,38 @@
+# =====================================================
+#  Aibuild Configuration
+#  Author: LuMickZi
+# =====================================================
+#
+# language: Display language. Valid values:
+#           en      (English / English)
+#           zh_cn   (简体中文 / Simplified Chinese)
+#
+# schematic-folder: Folder inside plugins/Aibuild/ where .schem files are loaded.
+#                   Default: schematics
+#
+# frame.enabled: Whether to render a particle wireframe showing the two-point
+#                selection in-game. Disable to save performance.
+#
+# frame.density: Spacing (in blocks) between particle points drawn on each edge
+#                of the selection. Lower values = denser outline = more particles.
+#                Recommended: 1 ~ 3.
+#
+# frame.interval: Ticks between particle refreshes (20 ticks = 1 second).
+#                 Lower values look smoother but cost more. Recommended: 5 ~ 20.
+#
+# frame.color: Wireframe color as an [R, G, B] list (each 0-255).
+#              Default is redstone red.
+#
+# frame.size: Particle scale. 1.0 is the vanilla default. Recommended: 0.8 ~ 1.5.
+# =====================================================
+
+language: "en"
+
+schematic-folder: schematics
+
+frame:
+  enabled: true
+  density: 2
+  interval: 10
+  color: [255, 40, 40]
+  size: 1.0

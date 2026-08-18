@@ -1,0 +1,16 @@
+# =====================================================
+#  Aibuild Configuration
+#  Author: LuMickZi
+# =====================================================
+#
+# language: Display language. Valid values:
+#           en      (English / English)
+#           zh_cn   (简体中文 / Simplified Chinese)
+#
+# schematic-folder: Folder inside plugins/Aibuild/ where .schem files are loaded.
+#                   Default: schematics
+# =====================================================
+
+language: "en"
+
+schematic-folder: schematics

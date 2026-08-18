@@ -1,0 +1,11 @@
+com\aibuild\manager\SelectionManager$Selection.class
+com\aibuild\manager\SchematicManager$BuildRecord.class
+com\aibuild\manager\SelectionManager.class
+com\aibuild\manager\FrameRenderer$1.class
+com\aibuild\manager\SchematicManager.class
+com\aibuild\manager\FrameRenderer.class
+com\aibuild\gui\SchematicGui.class
+com\aibuild\Aibuild.class
+com\aibuild\command\AibuildCommand.class
+com\aibuild\manager\FrameRenderer$2.class
+com\aibuild\manager\SchematicManager$PreviewInfo.class

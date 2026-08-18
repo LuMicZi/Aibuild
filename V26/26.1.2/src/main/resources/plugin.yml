@@ -1,0 +1,38 @@
+name: Aibuild
+version: 1.0.0
+main: com.aibuild.Aibuild
+api-version: 1.21
+author: LuMickZi
+description: Auto-Build plugin powered by WorldEdit
+
+load: POSTWORLD
+depend:
+  - WorldEdit
+
+commands:
+  aibuild:
+    description: Aibuild main command
+    usage: /aibuild <list|build|gui|tool|reload|undo|language|help>
+    permission: aibuild.use
+    aliases:
+      - ab
+
+permissions:
+  aibuild.use:
+    description: Basic Aibuild usage permission (grants all subcommands)
+    default: op
+  aibuild.build:
+    description: Permission to build schematics (place blocks)
+    default: op
+  aibuild.gui:
+    description: Permission to open the GUI
+    default: op
+  aibuild.tool:
+    description: Permission to obtain and use the selection tool
+    default: op
+  aibuild.undo:
+    description: Permission to undo the last build
+    default: op
+  aibuild.reload:
+    description: Permission to reload the plugin
+    default: op

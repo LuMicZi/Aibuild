@@ -1,0 +1,111 @@
+# Aibuild - 简体中文语言文件
+# 作者: LuMickZi
+
+# ============ 插件前缀 ============
+prefix: "[Aibuild] "
+
+# ============ 通用 ============
+no-permission: "你没有权限执行此命令！"
+player-only: "此命令只能由玩家使用！"
+reload-success: "插件重新加载成功！"
+
+# ============ 建筑模板 ============
+schematic-list: "可用的建筑模板："
+schematic-list-footer: "使用 /aibuild build <名称> 或 /aibuild gui"
+schematic-list-empty: "没有找到任何模板！请把 .schem 文件放到 plugins/Aibuild/schematics/ 目录"
+schematic-not-found: "找不到模板：%name%"
+building-started: "正在建造：%name%"
+building-completed: "建造完成！"
+building-failed: "建造失败：%error%"
+building-failed-load: "加载模板文件失败"
+building-size: "尺寸：%w%×%h%×%l%（宽×高×深）"
+building-bounds: "位置：(%mx%,%my%,%mz%) → (%Mx%,%My%,%Mz%)"
+
+# ============ 撤销 ============
+undo-no-record: "没有可撤销的建造记录。"
+undo-success: "撤销完成 — 已将该区域恢复原状。"
+undo-failed: "撤销失败：%error%"
+undo-no-perm: "你没有撤销权限！"
+
+# ============ GUI 界面 ============
+gui-title: "Aibuild 建筑模板（第 %page%/%total% 页）"
+gui-item-lore-click: "点击建造此模板"
+gui-item-lore-size: "尺寸：%w%×%h%×%l%"
+gui-item-lore-confirm: "点击预览放置位置"
+gui-item-lore-click-preview: "点击预览（绿色粒子框）"
+gui-item-lore-click-confirm: "再次点击确认建造"
+gui-item-lore-previewing: "当前正在预览"
+gui-prev-page: "上一页（第 %page% 页）"
+gui-next-page: "下一页（第 %page% 页）"
+gui-undo-title: "撤销上次建造"
+gui-undo-lore1: "清除你最后一次建造的区域"
+gui-undo-lore2: "需要权限：aibuild.undo"
+gui-confirm-title: "确认建造"
+gui-confirm-lore1: "建造预览中的模板"
+gui-confirm-lore2: "在高亮位置"
+gui-info-title: "Aibuild 自动建造"
+gui-info-lore-total: "共有 %count% 个模板"
+gui-info-lore-page: "当前第 %page% / %total% 页"
+gui-info-lore-author: "作者：LuMickZi"
+gui-info-lore-hint: "点击模板预览放置位置（绿色）"
+gui-info-lore-hint2: "再次点击确认建造"
+gui-build-no-perm: "你没有建造权限！"
+
+# ============ 选区工具 ============
+tool-name: "Aibuild 选区工具"
+tool-lore-1: "左键点击方块：设置点 1"
+tool-lore-2: "右键点击方块：设置点 2"
+tool-lore-hint: "然后用 /aibuild build <名称> 或点击 GUI 投影到该区域"
+tool-received: "选区工具已放入背包。左键设点1，右键设点2。"
+tool-no-perm: "你没有使用选区工具的权限！"
+sel-pos1-set: "点1已设置：(%x%, %y%, %z%) 世界：%world%"
+sel-pos2-set: "点2已设置：(%x%, %y%, %z%) 世界：%world%"
+sel-region-size: "选区尺寸：%w%×%h%×%l%"
+sel-world-mismatch: "点2必须与点1在同一世界，请先在本世界重新设置点1。"
+building-mode-selection: "模式：对齐到选区一角"
+building-mode-feet: "模式：在脚下建造（无有效选区）"
+
+# ============ 预览 ============
+preview-showing: "正在预览：%name%"
+preview-confirm-hint: "再次点击同一模板（或点击确认按钮）开始建造"
+preview-no-preview: "没有可确认的预览 — 请先点击一个模板"
+
+# ============ 语言切换 ============
+lang-set-success: "语言已切换为中文（zh_cn）。"
+lang-usage: "用法：/aibuild language <en|zh_cn>"
+lang-unknown: "未知语言。可选：en 或 zh_cn"
+lang-current: "当前语言：中文（zh_cn）"
+lang-help: "切换显示语言。可用：en, zh_cn"
+
+# ============ 帮助信息 ============
+help-title: "=== Aibuild 命令帮助 ==="
+help-author: "作者：LuMickZi（QQ：507657354）"
+help-list: " /aibuild list         - 列出所有模板"
+help-build: " /aibuild build <名>   - 在当前位置建造"
+help-gui: " /aibuild gui          - 打开图形界面（推荐）"
+help-tool: " /aibuild tool         - 获取选区工具"
+help-undo: " /aibuild undo         - 撤销上次建造"
+help-reload: " /aibuild reload       - 重新加载插件"
+help-language: " /aibuild language     - 切换语言（en/zh_cn）"
+help-help: " /aibuild help         - 显示此帮助"
+help-alias: " 快捷命令：/ab <命令>"
+
+# ============ 命令错误 ============
+cmd-usage-build: "用法：/aibuild build <模板名>"
+cmd-unknown: "未知子命令。输入 /aibuild help 查看所有命令。"
+
+# ============ 启动信息 ============
+startup-header: "Aibuild v%version% 正在启动..."
+startup-server: "服务器：%server% %version%"
+startup-author: "作者：LuMickZi"
+startup-folder-created: "已创建数据目录：%path%"
+startup-folder-schem: "模板目录：%path%"
+startup-folder-schem-created: "已创建模板目录：%path%"
+startup-config-loaded: "使用现有配置：config.yml"
+startup-config-saved: "默认配置文件已保存：config.yml"
+startup-config-error: "警告：saveDefaultConfig() 没有生成 config.yml（JAR中可能缺失资源）"
+startup-command-registered: "命令 '/aibuild' 注册成功"
+startup-loaded: "已加载 %count% 个建筑模板"
+startup-enabled: "Aibuild 已启用。使用 /aibuild help 或 /ab help"
+startup-hint: "把 .schem 文件放到：%path%"
+startup-lang: "语言：%lang%"
